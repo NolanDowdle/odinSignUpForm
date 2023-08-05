@@ -1,0 +1,70 @@
+:root {
+
+}
+
+input:focus {
+    border-radius: 1px;
+    border-style: solid;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(Norse-Bold.otf);
+}
+
+body {
+    background-color: rgb(232, 225, 225);
+    display: flex;
+    font-family: myFirstFont;
+}
+
+#paragraph {
+    padding-top: 5%;
+}
+
+#rightSide {
+    padding: 2%;
+}
+
+#side1 {
+    padding: 5%;
+}
+
+#side2 {
+    padding: 5%;
+}
+
+img {
+    position: relative;
+    height: 100vh;
+    width: auto;
+}
+
+#shadowDiv {
+    display: flex;
+    background: rgb(225, 225, 225);
+    flex-direction: row;
+    margin-top: 10%;
+}
+
+a {
+    color: #596D48;
+    text-decoration: none;
+}
+
+button {
+    background-color: #596D48;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    width: auto;
+    height: 6vh;
+    margin-top: 5%;
+}
+
+button:hover {
+    border-radius: 5px;
+    border-color: #E5E7EB;
+    border-style: solid;
+    cursor: pointer;
+}

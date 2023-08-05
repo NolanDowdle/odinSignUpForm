@@ -3,9 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Sign Up Form</title>
 </head>
 <body>
+    <div>
+        <img src="image.jpg"/>
+    </div>
+
+    <div id="rightSide">
+        <div id="paragraph">
+            <p style="font-family:'Times New Roman', Times, serif">This is not a real online service! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, commodi!
+                <br/>
+                Sign up now to get started.
+                
+                <br/><br/>You know you want to.</p>
+        </div>
+        <div>
+            <form action="#" method="get">
+                <div id="shadowDiv">
+                    <div id="side1">
+                        <div style="display: flex; flex-direction: column; margin-top: 2px;">
+                            <label>First Name</label>
+                            <input type="text" maxlength="20" placeholder="Elon"></input>
+                        </div>
+                        <div style="display: flex; flex-direction: column; margin-top: 2px;">
+                            <label>*Email</label>
+                            <input type="email" required></input>
+                        </div>
+                        <div style="display: flex; flex-direction: column; margin-top: 2px;">
+                            <label>*Password</label>
+                            <input type="password" minlength="5" maxlength="20" required></input>
+                        </div>
+                    </div>
+                    <div id="side2">
+                        <div style="display: flex; flex-direction: column; margin-top: 2px;">
+                            <label>Last Name</label>
+                            <input type="text" maxlength="20" placeholder="Musk"></input>
+                        </div>
+                        <div style="display: flex; flex-direction: column; margin-top: 2px;">
+                            <label>Phone Number</label>
+                            <input type="text" maxlength="20" pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}" minlength="9" placeholder="000-111-9999"></input>
+                        </div>
+                        <div style="display: flex; flex-direction: column; margin-top: 2px;">
+                            <label>*Confirm Password</label>
+                            <input type="password" minlength="5" maxlength="20" required></input>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit">Create Account</button>
+            </form>
+        </div>
+        <div>
+            <p>Already have an account? <a href="#">Log in</a></p>
+        </div>
+    </div>
     
 </body>
 </html>
